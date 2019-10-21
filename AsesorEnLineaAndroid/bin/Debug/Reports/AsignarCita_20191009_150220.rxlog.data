@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="978e75a93565596"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Ycano"
+		rxversion="9.1.2.0"
+		host="ASUS_Z01BDC (Unknown)
+WLAN - 192.168.137.133"
+		osversion="-"
+		runtimeversion="-"
+		procarch="-"
+		oslanguage="-"
+		dtnlanguage="-"
+		screenresolution="-"
+		timestamp="9/10/2019 3:02:23 p. m."
+		timestampiso="2019-10-09T20:02:23"
+		endtime="9/10/2019 3:03:06 p. m."
+		timeoutfactor="1"
+		module="AsignarCita">
+		<detail>
+			AsignarCita
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.984"
+			timeRelativeToTestModuleStartTime="00:02.984"
+			timeWallClock="15:02:26"
+			time="00:02.984"
+			level="Info"
+			category="Application">
+			<message>
+				Run mobile app 'com.proteccion.videoasesoria' on device ASUS_Z01BDC.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="C:\Users\ycano\Documents\Ranorex\RanorexStudio Projects\AsesorEnLineaAndroid\AsesorEnLineaAndroid\AsignarCita.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.693"
+			timeRelativeToTestModuleStartTime="00:07.693"
+			timeWallClock="15:02:30"
+			time="00:07.693"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComProteccionVideoasesoria.AsignarCita.ConsultarCitaBtn' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.proteccion.videoasesoria']/form[@title='HomeActivity']/androidelement[@rid='content']//container[@rid='content_home']/container/container[@containertype='Linear']/container[3]/button[@resourceid='R.string.consult_appointment']"
+				itempath="form[@title='HomeActivity']/androidelement[@rid='content']//container[@rid='content_home']/container/container[@containertype='Linear']/container[3]/button[@resourceid='R.string.consult_appointment']"
+				fullname="AsesorEnLineaAndroidRepository.ComProteccionVideoasesoria.AsignarCita.ConsultarCitaBtn"
+				id="58c5d731875c490faa1bc02d482efaf4"
+				timeout="90000"
+				codefile="C:\Users\ycano\Documents\Ranorex\RanorexStudio Projects\AsesorEnLineaAndroid\AsesorEnLineaAndroid\AsignarCita.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:32.215"
+			timeRelativeToTestModuleStartTime="00:32.215"
+			timeWallClock="15:02:55"
+			time="00:32.215"
+			level="Info"
+			category="Touch gestures">
+			<message>
+				Swipe gesture with direction 'Up (270&#176;)' starting from 'Center' with distance '1.0' with swipe duration'500ms' and step count '0' on item 'ComProteccionVideoasesoria.AsignarCita.AreaAgenda'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.proteccion.videoasesoria']/form[@title='CalendarActivity']/androidelement/container[@containertype='Linear']/container[3]"
+				itempath="form[@title='CalendarActivity']/androidelement/container[@containertype='Linear']/container[3]"
+				fullname="AsesorEnLineaAndroidRepository.ComProteccionVideoasesoria.AsignarCita.AreaAgenda"
+				id="db98d6da6e20403c9e6a5a7e3d82ea7d"
+				timeout="90000"
+				codefile="C:\Users\ycano\Documents\Ranorex\RanorexStudio Projects\AsesorEnLineaAndroid\AsesorEnLineaAndroid\AsignarCita.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:34.158"
+			timeRelativeToTestModuleStartTime="00:34.158"
+			timeWallClock="15:02:57"
+			time="00:34.158"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComProteccionVideoasesoria.AsignarCita.asignarcita2' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.proteccion.videoasesoria']/form[@title='CalendarActivity']/androidelement[@rid='content']/container/container[3]/?/?/androidelement[@rid='rv_appointment']//text[@rid='assign_appointment']"
+				itempath="form[@title='CalendarActivity']/androidelement[@rid='content']/container/container[3]/?/?/androidelement[@rid='rv_appointment']//text[@rid='assign_appointment']"
+				fullname="AsesorEnLineaAndroidRepository.ComProteccionVideoasesoria.AsignarCita.asignarcita2"
+				id="16aad535b9f846acabaf9e703f05c27e"
+				timeout="90000"
+				codefile="C:\Users\ycano\Documents\Ranorex\RanorexStudio Projects\AsesorEnLineaAndroid\AsesorEnLineaAndroid\AsignarCita.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:36.322"
+			timeRelativeToTestModuleStartTime="00:36.322"
+			timeWallClock="15:02:59"
+			time="00:36.322"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComProteccionVideoasesoria.AsignarCita.AceptarCitaBtn' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.proteccion.videoasesoria']/form[@title='Confirmar cita']/container[@rid='content']//button[@resourceid='R.string.done']"
+				itempath="form[@title='Confirmar cita']/container[@rid='content']//button[@resourceid='R.string.done']"
+				fullname="AsesorEnLineaAndroidRepository.ComProteccionVideoasesoria.AsignarCita.AceptarCitaBtn"
+				id="e4aef758679648f58c983cf714fed0ed"
+				timeout="90000"
+				codefile="C:\Users\ycano\Documents\Ranorex\RanorexStudio Projects\AsesorEnLineaAndroid\AsesorEnLineaAndroid\AsignarCita.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:37.889"
+			timeRelativeToTestModuleStartTime="00:37.889"
+			timeWallClock="15:03:01"
+			time="00:37.889"
+			level="Info"
+			category="Application">
+			<message>
+				Run mobile app 'com.proteccion.videoasesoria' on device ASUS_Z01BDC.
+			</message>
+			<metainfo
+				itemindex="5"
+				codefile="C:\Users\ycano\Documents\Ranorex\RanorexStudio Projects\AsesorEnLineaAndroid\AsesorEnLineaAndroid\AsignarCita.cs"
+				codeline="102"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

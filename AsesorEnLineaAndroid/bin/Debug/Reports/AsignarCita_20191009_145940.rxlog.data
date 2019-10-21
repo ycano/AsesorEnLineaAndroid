@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1ffe4aa22c522324"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Ycano"
+		rxversion="9.1.2.0"
+		host="ASUS_Z01BDC (Unknown)
+WLAN - 192.168.137.133"
+		osversion="-"
+		runtimeversion="-"
+		procarch="-"
+		oslanguage="-"
+		dtnlanguage="-"
+		screenresolution="-"
+		timestamp="9/10/2019 2:59:43 p. m."
+		timestampiso="2019-10-09T19:59:43"
+		endtime="9/10/2019 3:01:17 p. m."
+		timeoutfactor="1"
+		module="AsignarCita">
+		<detail>
+			AsignarCita
+		</detail>
+		<errormessage>
+			Failed to find item 'AsesorEnLineaAndroidRepository.ComProteccionVideoasesoria.AsignarCita.ConsultarCitaBtn'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.006"
+			timeRelativeToTestModuleStartTime="00:03.006"
+			timeWallClock="14:59:46"
+			time="00:03.006"
+			level="Info"
+			category="Touch"
+			errimg="images_AsignarC_d915f026\AsignarC_d915f026_3d380dfa_trace.jpg"
+			errthumb="images_AsignarC_d915f026\AsignarC_d915f026_3d380dfa_trace_thumb.jpg">
+			<message>
+				Touch item 'ComProteccionVideoasesoria.AsignarCita.ConsultarCitaBtn' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.proteccion.videoasesoria']/form[@title='HomeActivity']/androidelement[@rid='content']//container[@rid='content_home']/container/container[@containertype='Linear']/container[3]/button[@resourceid='R.string.consult_appointment']"
+				itempath="form[@title='HomeActivity']/androidelement[@rid='content']//container[@rid='content_home']/container/container[@containertype='Linear']/container[3]/button[@resourceid='R.string.consult_appointment']"
+				fullname="AsesorEnLineaAndroidRepository.ComProteccionVideoasesoria.AsignarCita.ConsultarCitaBtn"
+				id="58c5d731875c490faa1bc02d482efaf4"
+				timeout="90000"
+				codefile="C:\Users\ycano\Documents\Ranorex\RanorexStudio Projects\AsesorEnLineaAndroid\AsesorEnLineaAndroid\AsignarCita.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:33.045"
+			timeRelativeToTestModuleStartTime="01:33.045"
+			timeWallClock="15:01:16"
+			time="01:33.045"
+			level="Error"
+			category="Module"
+			errimg="images_AsignarC_d915f026\AsignarC_d915f026_3d380dfa_trace.jpg"
+			errthumb="images_AsignarC_d915f026\AsignarC_d915f026_3d380dfa_trace_thumb.jpg">
+			<message>
+				Failed to find item 'AsesorEnLineaAndroidRepository.ComProteccionVideoasesoria.AsignarCita.ConsultarCitaBtn'.<br/>No element found for path '/mobileapp[@title='com.proteccion.videoasesoria']/form[@title='HomeActivity']/androidelement[@rid='content']//container[@rid='content_home']/container/container[@containertype='Linear']/container[3]/button[@resourceid='R.string.consult_appointment']' at step 'form[@title='HomeActivity']' after 1760 attempts within 1.5m.
+			</message>
+			<metainfo
+				stacktrace="   en Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   en Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass75_0`1.&lt;Find>b__0()&#13;&#10;   en Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   en Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   en Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   en Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   en AsesorEnLineaAndroid.AsesorEnLineaAndroidRepositoryFolders.AsignarCitaFolder.get_ConsultarCitaBtn() en C:\Users\ycano\Documents\Ranorex\RanorexStudio Projects\AsesorEnLineaAndroid\AsesorEnLineaAndroid\AsesorEnLineaAndroidRepository.cs:línea 625&#13;&#10;   en AsesorEnLineaAndroid.AsignarCita.Ranorex.Core.Testing.ITestModule.Run() en C:\Users\ycano\Documents\Ranorex\RanorexStudio Projects\AsesorEnLineaAndroid\AsesorEnLineaAndroid\AsignarCita.cs:línea 83&#13;&#10;   en Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="C:\Users\ycano\Documents\Ranorex\RanorexStudio Projects\AsesorEnLineaAndroid\AsesorEnLineaAndroid\AsignarCita.cs"
+				codeline="83"
+				type="repoitem"
+				path="/mobileapp[@title='com.proteccion.videoasesoria']/form[@title='HomeActivity']/androidelement[@rid='content']//container[@rid='content_home']/container/container[@containertype='Linear']/container[3]/button[@resourceid='R.string.consult_appointment']"
+				itempath="form[@title='HomeActivity']/androidelement[@rid='content']//container[@rid='content_home']/container/container[@containertype='Linear']/container[3]/button[@resourceid='R.string.consult_appointment']"
+				fullname="AsesorEnLineaAndroidRepository.ComProteccionVideoasesoria.AsignarCita.ConsultarCitaBtn"
+				id="58c5d731875c490faa1bc02d482efaf4"
+				timeout="90000"
+				failedStep="form[@title='HomeActivity']"
+				bestPathPrefix="/mobileapp[@title='com.proteccion.videoasesoria']"
+				loglvl="Error"
+				itemindex="0">
+			</metainfo>
+		</item>
+	</activity>
+</report>

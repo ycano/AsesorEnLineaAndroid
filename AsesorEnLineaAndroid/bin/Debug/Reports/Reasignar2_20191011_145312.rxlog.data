@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="cf8909877c3eee0"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Ycano"
+		rxversion="9.1.2.0"
+		host="P-YCANO"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="es-CO"
+		screenresolution="2390x768"
+		timestamp="11/10/2019 2:53:15 p. m."
+		timestampiso="2019-10-11T19:53:15"
+		endtime="11/10/2019 2:53:36 p. m."
+		timeoutfactor="1"
+		module="Reasignar2">
+		<detail>
+			Reasignar2
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.350"
+			timeRelativeToTestModuleStartTime="00:03.350"
+			timeWallClock="14:53:19"
+			time="00:03.350"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComProteccionVideoasesoria.AsignarCita.ConsultarCitaBtn' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.proteccion.videoasesoria']/form[@title='HomeActivity']/androidelement[@rid='content']//container[@rid='content_home']/container/container[@containertype='Linear']/container[3]/button[@resourceid='R.string.consult_appointment']"
+				itempath="form[@title='HomeActivity']/androidelement[@rid='content']//container[@rid='content_home']/container/container[@containertype='Linear']/container[3]/button[@resourceid='R.string.consult_appointment']"
+				fullname="AsesorEnLineaAndroidRepository.ComProteccionVideoasesoria.AsignarCita.ConsultarCitaBtn"
+				id="58c5d731875c490faa1bc02d482efaf4"
+				timeout="90000"
+				codefile="C:\Users\ycano\Documents\Ranorex\RanorexStudio Projects\AsesorEnLineaAndroid\AsesorEnLineaAndroid\Reasignar2.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.004"
+			timeRelativeToTestModuleStartTime="00:13.004"
+			timeWallClock="14:53:28"
+			time="00:13.004"
+			level="Info"
+			category="Touch gestures">
+			<message>
+				Swipe gesture with direction 'Up (270&#176;)' starting from 'Center' with distance '.5' with swipe duration'500ms' and step count '0' on item 'ComProteccionVideoasesoria.AsignarCita.AreaAgenda'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.proteccion.videoasesoria']/form[@title='CalendarActivity']/androidelement/container[@containertype='Linear']/container[3]"
+				itempath="form[@title='CalendarActivity']/androidelement/container[@containertype='Linear']/container[3]"
+				fullname="AsesorEnLineaAndroidRepository.ComProteccionVideoasesoria.AsignarCita.AreaAgenda"
+				id="db98d6da6e20403c9e6a5a7e3d82ea7d"
+				timeout="90000"
+				codefile="C:\Users\ycano\Documents\Ranorex\RanorexStudio Projects\AsesorEnLineaAndroid\AsesorEnLineaAndroid\Reasignar2.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.193"
+			timeRelativeToTestModuleStartTime="00:15.193"
+			timeWallClock="14:53:30"
+			time="00:15.193"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComProteccionVideoasesoria.ReasignarCita.CitaHorario2' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.proteccion.videoasesoria']/form[@title='CalendarActivity']/androidelement[@rid='content']/container/container[3]/?/?/androidelement[@rid='rv_appointment']/container[2]/container[@containertype='Linear']/container[2]/text[@rid='assign_appointment']"
+				itempath="form[@title='CalendarActivity']/androidelement[@rid='content']/container/container[3]/?/?/androidelement[@rid='rv_appointment']/container[2]/container[@containertype='Linear']/container[2]/text[@rid='assign_appointment']"
+				fullname="AsesorEnLineaAndroidRepository.ComProteccionVideoasesoria.ReasignarCita.CitaHorario2"
+				id="0db09d49f5a041eb8c31ecffa457824f"
+				timeout="90000"
+				codefile="C:\Users\ycano\Documents\Ranorex\RanorexStudio Projects\AsesorEnLineaAndroid\AsesorEnLineaAndroid\Reasignar2.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.216"
+			timeRelativeToTestModuleStartTime="00:17.216"
+			timeWallClock="14:53:32"
+			time="00:17.216"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComProteccionVideoasesoria.AsignarCita.AceptarCitaBtn' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.proteccion.videoasesoria']/form[@title='Confirmar cita']/container[@rid='content']//button[@resourceid='R.string.done']"
+				itempath="form[@title='Confirmar cita']/container[@rid='content']//button[@resourceid='R.string.done']"
+				fullname="AsesorEnLineaAndroidRepository.ComProteccionVideoasesoria.AsignarCita.AceptarCitaBtn"
+				id="e4aef758679648f58c983cf714fed0ed"
+				timeout="90000"
+				codefile="C:\Users\ycano\Documents\Ranorex\RanorexStudio Projects\AsesorEnLineaAndroid\AsesorEnLineaAndroid\Reasignar2.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.134"
+			timeRelativeToTestModuleStartTime="00:19.134"
+			timeWallClock="14:53:34"
+			time="00:19.134"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComProteccionVideoasesoria.ReasignarCita.AceptarReasignarCita' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.proteccion.videoasesoria']/form[@title='Reasignar cita']/container[@rid='content']//button[@resourceid='R.string.done']"
+				itempath="form[@title='Reasignar cita']/container[@rid='content']//button[@resourceid='R.string.done']"
+				fullname="AsesorEnLineaAndroidRepository.ComProteccionVideoasesoria.ReasignarCita.AceptarReasignarCita"
+				id="6d562b4c8c7142838d93a720997b52a7"
+				timeout="90000"
+				codefile="C:\Users\ycano\Documents\Ranorex\RanorexStudio Projects\AsesorEnLineaAndroid\AsesorEnLineaAndroid\Reasignar2.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

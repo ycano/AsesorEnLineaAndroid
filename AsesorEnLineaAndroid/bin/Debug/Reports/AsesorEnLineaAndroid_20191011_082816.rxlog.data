@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="226dbd281f565ad6"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="1"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Ycano"
+		rxversion="9.1.2.0"
+		host="P-YCANO"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="es-CO"
+		screenresolution="2390x768"
+		timestamp="11/10/2019 8:28:16 a. m."
+		timestampiso="2019-10-11T13:28:16"
+		endtime="11/10/2019 8:28:20 a. m."
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="600ms"
+			durationms="600"
+			type="test-suite"
+			rid="9e8a6bfeccb3e4"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesstestcasecount="0"
+			totalfailedtestcasecount="1"
+			totalblockedtestcasecount="0"
+			childsuccesscount="0"
+			childfailedcount="1"
+			childblockedcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			totalmaintenancemodecount="0"
+			testsuitename="AsesorEnLineaAndroid"
+			headertext="AsesorEnLineaAndroid"
+			runconfigname="TestRun"
+			runlabel="">
+			<params>
+			</params>
+			<activity
+				result="Failed"
+				duration="562ms"
+				durationms="562"
+				type="test-case"
+				rid="63153c575ba81a6"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="1"
+				totalblockedtestcasecount="0"
+				childsuccesscount="0"
+				childfailedcount="1"
+				childblockedcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				testcontainername="Flujo2"
+				testcontainerid="e28728e5-1fd5-4c22-aa59-499da369cf14"
+				headertext="Flujo2"
+				displayName="Flujo2"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+				<activity
+					result="Failed"
+					duration="535ms"
+					durationms="535"
+					type="test-module"
+					rid="3e72eab5a403b87"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="IniciarSesion"
+					displayName="IniciarSesion"
+					moduleid="1c4e226d-283c-4493-a71b-d61e1b5789c6"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<errormessage>
+						Cannot start mobile app 'com.proteccion.videoasesoria' because there is no device with name 'None' in the list of configured devices.
+					</errormessage>
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.085"
+						timeRelativeToTestModuleStartTime="00:00.024"
+						timeWallClock="08:28:20"
+						time="00:00.085"
+						level="Info"
+						category="Application"
+						errimg="images_AsesorEn_6cd07c33\AsesorEn_6cd07c33_0ca2ba53_trace.jpg"
+						errthumb="images_AsesorEn_6cd07c33\AsesorEn_6cd07c33_0ca2ba53_trace_thumb.jpg">
+						<message>
+							Run mobile app 'com.proteccion.videoasesoria' on device None.
+						</message>
+						<metainfo
+							itemindex="0"
+							codefile="C:\Users\ycano\Documents\Ranorex\RanorexStudio Projects\AsesorEnLineaAndroid\AsesorEnLineaAndroid\IniciarSesion.cs"
+							codeline="82"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.468"
+						timeRelativeToTestModuleStartTime="00:00.408"
+						timeWallClock="08:28:20"
+						time="00:00.468"
+						level="Error"
+						category="Module"
+						errimg="images_AsesorEn_6cd07c33\AsesorEn_6cd07c33_43fe1100_trace.jpg"
+						errthumb="images_AsesorEn_6cd07c33\AsesorEn_6cd07c33_43fe1100_trace_thumb.jpg">
+						<message>
+							Cannot start mobile app 'com.proteccion.videoasesoria' because there is no device with name 'None' in the list of configured devices.
+						</message>
+						<metainfo
+							stacktrace="   en Ranorex.Host.RunMobileApp(String deviceDisplayName, String appName, Boolean resetInitialState)
+   en AsesorEnLineaAndroid.IniciarSesion.Ranorex.Core.Testing.ITestModule.Run() en C:\Users\ycano\Documents\Ranorex\RanorexStudio Projects\AsesorEnLineaAndroid\AsesorEnLineaAndroid\IniciarSesion.cs:línea 83
+   en Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+							codefile="C:\Users\ycano\Documents\Ranorex\RanorexStudio Projects\AsesorEnLineaAndroid\AsesorEnLineaAndroid\IniciarSesion.cs"
+							codeline="83"
+							loglvl="Error"
+							itemindex="0">
+						</metainfo>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

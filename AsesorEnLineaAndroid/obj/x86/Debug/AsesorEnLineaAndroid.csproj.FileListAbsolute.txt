@@ -1,0 +1,10 @@
+C:\Users\ycano\Documents\Ranorex\RanorexStudio Projects\AsesorEnLineaAndroid\AsesorEnLineaAndroid\bin\Debug\AsesorEnLineaAndroid.rxtmg
+C:\Users\ycano\Documents\Ranorex\RanorexStudio Projects\AsesorEnLineaAndroid\AsesorEnLineaAndroid\bin\Debug\AsesorEnLineaAndroid.rxtst
+C:\Users\ycano\Documents\Ranorex\RanorexStudio Projects\AsesorEnLineaAndroid\AsesorEnLineaAndroid\bin\Debug\AsesorEnLineaAndroid.exe.config
+C:\Users\ycano\Documents\Ranorex\RanorexStudio Projects\AsesorEnLineaAndroid\AsesorEnLineaAndroid\bin\Debug\AsesorEnLineaAndroid.xml
+C:\Users\ycano\Documents\Ranorex\RanorexStudio Projects\AsesorEnLineaAndroid\AsesorEnLineaAndroid\bin\Debug\AsesorEnLineaAndroid.exe
+C:\Users\ycano\Documents\Ranorex\RanorexStudio Projects\AsesorEnLineaAndroid\AsesorEnLineaAndroid\bin\Debug\AsesorEnLineaAndroid.pdb
+C:\Users\ycano\Documents\Ranorex\RanorexStudio Projects\AsesorEnLineaAndroid\AsesorEnLineaAndroid\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\ycano\Documents\Ranorex\RanorexStudio Projects\AsesorEnLineaAndroid\AsesorEnLineaAndroid\obj\x86\Debug\AsesorEnLineaAndroid.csprojResolveAssemblyReference.cache
+C:\Users\ycano\Documents\Ranorex\RanorexStudio Projects\AsesorEnLineaAndroid\AsesorEnLineaAndroid\obj\x86\Debug\AsesorEnLineaAndroid.exe
+C:\Users\ycano\Documents\Ranorex\RanorexStudio Projects\AsesorEnLineaAndroid\AsesorEnLineaAndroid\obj\x86\Debug\AsesorEnLineaAndroid.pdb

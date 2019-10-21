@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="21adcc53ab42818"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Ycano"
+		rxversion="9.1.2.0"
+		host="ASUS_Z01BDC (Unknown)
+WLAN - 192.168.137.133"
+		osversion="-"
+		runtimeversion="-"
+		procarch="-"
+		oslanguage="-"
+		dtnlanguage="-"
+		screenresolution="-"
+		timestamp="9/10/2019 3:13:58 p. m."
+		timestampiso="2019-10-09T20:13:58"
+		endtime="9/10/2019 3:14:09 p. m."
+		timeoutfactor="1"
+		module="EliminarCita">
+		<detail>
+			EliminarCita
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.286"
+			timeRelativeToTestModuleStartTime="00:03.286"
+			timeWallClock="15:14:01"
+			time="00:03.286"
+			level="Info"
+			category="Application">
+			<message>
+				Run mobile app 'com.proteccion.videoasesoria' on device ASUS_Z01BDC.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="C:\Users\ycano\Documents\Ranorex\RanorexStudio Projects\AsesorEnLineaAndroid\AsesorEnLineaAndroid\EliminarCita.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.860"
+			timeRelativeToTestModuleStartTime="00:08.860"
+			timeWallClock="15:14:07"
+			time="00:08.860"
+			level="Info"
+			category="Touch gestures">
+			<message>
+				Swipe gesture with direction 'Left (180&#176;)' starting from 'Center' with distance '1.0' with swipe duration'500ms' and step count '0' on item 'ComProteccionVideoasesoria.EliminarCita.AreaCita'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.proteccion.videoasesoria']/form[@title='HomeActivity']//container[@rid='content_home']/container/container[@containertype='Linear']/container[4]/container[@rid='layout_appointments']/androidelement[@rid='rv_appointment_assigned']//container[@rid='rowFG']/container[@rid='appointment_delete']"
+				itempath="form[@title='HomeActivity']//container[@rid='content_home']/container/container[@containertype='Linear']/container[4]/container[@rid='layout_appointments']/androidelement[@rid='rv_appointment_assigned']//container[@rid='rowFG']/container[@rid='appointment_delete']"
+				fullname="AsesorEnLineaAndroidRepository.ComProteccionVideoasesoria.EliminarCita.AreaCita"
+				id="02357a993f724cdf8d459f1cf44791f3"
+				timeout="90000"
+				codefile="C:\Users\ycano\Documents\Ranorex\RanorexStudio Projects\AsesorEnLineaAndroid\AsesorEnLineaAndroid\EliminarCita.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

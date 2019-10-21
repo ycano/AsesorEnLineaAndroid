@@ -1,0 +1,754 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AsesorEnLineaAndroid</name>
+    </assembly>
+    <members>
+        <member name="T:AsesorEnLineaAndroid.AsesorEnLineaAndroidRepository">
+            <summary>
+            The class representing the AsesorEnLineaAndroidRepository element repository.
+            </summary>
+        </member>
+        <member name="P:AsesorEnLineaAndroid.AsesorEnLineaAndroidRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the AsesorEnLineaAndroidRepository element repository.
+            </summary>
+        </member>
+        <member name="M:AsesorEnLineaAndroid.AsesorEnLineaAndroidRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:AsesorEnLineaAndroid.AsesorEnLineaAndroidRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:AsesorEnLineaAndroid.AsesorEnLineaAndroidRepository.ComProteccionVideoasesoria">
+            <summary>
+            The ComProteccionVideoasesoria folder.
+            </summary>
+        </member>
+        <member name="T:AsesorEnLineaAndroid.AsesorEnLineaAndroidRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:AsesorEnLineaAndroid.AsesorEnLineaAndroidRepositoryFolders.ComProteccionVideoasesoriaAppFolder">
+            <summary>
+            The ComProteccionVideoasesoriaAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:AsesorEnLineaAndroid.AsesorEnLineaAndroidRepositoryFolders.ComProteccionVideoasesoriaAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ComProteccionVideoasesoria  folder.
+            </summary>
+        </member>
+        <member name="P:AsesorEnLineaAndroid.AsesorEnLineaAndroidRepositoryFolders.ComProteccionVideoasesoriaAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:AsesorEnLineaAndroid.AsesorEnLineaAndroidRepositoryFolders.ComProteccionVideoasesoriaAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:AsesorEnLineaAndroid.AsesorEnLineaAndroidRepositoryFolders.ComProteccionVideoasesoriaAppFolder.Login">
+            <summary>
+            The Login folder.
+            </summary>
+        </member>
+        <member name="P:AsesorEnLineaAndroid.AsesorEnLineaAndroidRepositoryFolders.ComProteccionVideoasesoriaAppFolder.CerrarSesion">
+            <summary>
+            The CerrarSesion folder.
+            </summary>
+        </member>
+        <member name="P:AsesorEnLineaAndroid.AsesorEnLineaAndroidRepositoryFolders.ComProteccionVideoasesoriaAppFolder.AsignarCita">
+            <summary>
+            The AsignarCita folder.
+            </summary>
+        </member>
+        <member name="P:AsesorEnLineaAndroid.AsesorEnLineaAndroidRepositoryFolders.ComProteccionVideoasesoriaAppFolder.ReasignarCita">
+            <summary>
+            The ReasignarCita folder.
+            </summary>
+        </member>
+        <member name="P:AsesorEnLineaAndroid.AsesorEnLineaAndroidRepositoryFolders.ComProteccionVideoasesoriaAppFolder.EliminarCita">
+            <summary>
+            The EliminarCita folder.
+            </summary>
+        </member>
+        <member name="T:AsesorEnLineaAndroid.AsesorEnLineaAndroidRepositoryFolders.LoginFolder">
+            <summary>
+            The LoginFolder folder.
+            </summary>
+        </member>
+        <member name="M:AsesorEnLineaAndroid.AsesorEnLineaAndroidRepositoryFolders.LoginFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Login  folder.
+            </summary>
+        </member>
+        <member name="P:AsesorEnLineaAndroid.AsesorEnLineaAndroidRepositoryFolders.LoginFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:AsesorEnLineaAndroid.AsesorEnLineaAndroidRepositoryFolders.LoginFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:AsesorEnLineaAndroid.AsesorEnLineaAndroidRepositoryFolders.LoginFolder.CedulaDeCiudadania">
+            <summary>
+            The CedulaDeCiudadania item.
+            </summary>
+        </member>
+        <member name="P:AsesorEnLineaAndroid.AsesorEnLineaAndroidRepositoryFolders.LoginFolder.CedulaDeCiudadaniaInfo">
+            <summary>
+            The CedulaDeCiudadania item info.
+            </summary>
+        </member>
+        <member name="P:AsesorEnLineaAndroid.AsesorEnLineaAndroidRepositoryFolders.LoginFolder.PruebasYeraldin">
+            <summary>
+            The PruebasYeraldin item.
+            </summary>
+        </member>
+        <member name="P:AsesorEnLineaAndroid.AsesorEnLineaAndroidRepositoryFolders.LoginFolder.PruebasYeraldinInfo">
+            <summary>
+            The PruebasYeraldin item info.
+            </summary>
+        </member>
+        <member name="P:AsesorEnLineaAndroid.AsesorEnLineaAndroidRepositoryFolders.LoginFolder.Content">
+            <summary>
+            The Content folder.
+            </summary>
+        </member>
+        <member name="T:AsesorEnLineaAndroid.AsesorEnLineaAndroidRepositoryFolders.ContentFolder">
+            <summary>
+            The ContentFolder folder.
+            </summary>
+        </member>
+        <member name="M:AsesorEnLineaAndroid.AsesorEnLineaAndroidRepositoryFolders.ContentFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Content  folder.
+            </summary>
+        </member>
+        <member name="P:AsesorEnLineaAndroid.AsesorEnLineaAndroidRepositoryFolders.ContentFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:AsesorEnLineaAndroid.AsesorEnLineaAndroidRepositoryFolders.ContentFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:AsesorEnLineaAndroid.AsesorEnLineaAndroidRepositoryFolders.ContentFolder.NumeroDocumentoTxt">
+            <summary>
+            The NumeroDocumentoTxt item.
+            </summary>
+        </member>
+        <member name="P:AsesorEnLineaAndroid.AsesorEnLineaAndroidRepositoryFolders.ContentFolder.NumeroDocumentoTxtInfo">
+            <summary>
+            The NumeroDocumentoTxt item info.
+            </summary>
+        </member>
+        <member name="P:AsesorEnLineaAndroid.AsesorEnLineaAndroidRepositoryFolders.ContentFolder.NombreTxt">
+            <summary>
+            The NombreTxt item.
+            </summary>
+        </member>
+        <member name="P:AsesorEnLineaAndroid.AsesorEnLineaAndroidRepositoryFolders.ContentFolder.NombreTxtInfo">
+            <summary>
+            The NombreTxt item info.
+            </summary>
+        </member>
+        <member name="P:AsesorEnLineaAndroid.AsesorEnLineaAndroidRepositoryFolders.ContentFolder.TipoDocumentoList">
+            <summary>
+            The TipoDocumentoList item.
+            </summary>
+        </member>
+        <member name="P:AsesorEnLineaAndroid.AsesorEnLineaAndroidRepositoryFolders.ContentFolder.TipoDocumentoListInfo">
+            <summary>
+            The TipoDocumentoList item info.
+            </summary>
+        </member>
+        <member name="P:AsesorEnLineaAndroid.AsesorEnLineaAndroidRepositoryFolders.ContentFolder.EmailTxt">
+            <summary>
+            The EmailTxt item.
+            </summary>
+        </member>
+        <member name="P:AsesorEnLineaAndroid.AsesorEnLineaAndroidRepositoryFolders.ContentFolder.EmailTxtInfo">
+            <summary>
+            The EmailTxt item info.
+            </summary>
+        </member>
+        <member name="P:AsesorEnLineaAndroid.AsesorEnLineaAndroidRepositoryFolders.ContentFolder.TipoAsesoriaList">
+            <summary>
+            The TipoAsesoriaList item.
+            </summary>
+        </member>
+        <member name="P:AsesorEnLineaAndroid.AsesorEnLineaAndroidRepositoryFolders.ContentFolder.TipoAsesoriaListInfo">
+            <summary>
+            The TipoAsesoriaList item info.
+            </summary>
+        </member>
+        <member name="P:AsesorEnLineaAndroid.AsesorEnLineaAndroidRepositoryFolders.ContentFolder.IngresarBtn">
+            <summary>
+            The IngresarBtn item.
+            </summary>
+        </member>
+        <member name="P:AsesorEnLineaAndroid.AsesorEnLineaAndroidRepositoryFolders.ContentFolder.IngresarBtnInfo">
+            <summary>
+            The IngresarBtn item info.
+            </summary>
+        </member>
+        <member name="T:AsesorEnLineaAndroid.AsesorEnLineaAndroidRepositoryFolders.CerrarSesionFolder">
+            <summary>
+            The CerrarSesionFolder folder.
+            </summary>
+        </member>
+        <member name="M:AsesorEnLineaAndroid.AsesorEnLineaAndroidRepositoryFolders.CerrarSesionFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new CerrarSesion  folder.
+            </summary>
+        </member>
+        <member name="P:AsesorEnLineaAndroid.AsesorEnLineaAndroidRepositoryFolders.CerrarSesionFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:AsesorEnLineaAndroid.AsesorEnLineaAndroidRepositoryFolders.CerrarSesionFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:AsesorEnLineaAndroid.AsesorEnLineaAndroidRepositoryFolders.CerrarSesionFolder.MenuHamburguesa">
+            <summary>
+            The MenuHamburguesa item.
+            </summary>
+        </member>
+        <member name="P:AsesorEnLineaAndroid.AsesorEnLineaAndroidRepositoryFolders.CerrarSesionFolder.MenuHamburguesaInfo">
+            <summary>
+            The MenuHamburguesa item info.
+            </summary>
+        </member>
+        <member name="P:AsesorEnLineaAndroid.AsesorEnLineaAndroidRepositoryFolders.CerrarSesionFolder.CerrarSesionBtn">
+            <summary>
+            The CerrarSesionBtn item.
+            </summary>
+        </member>
+        <member name="P:AsesorEnLineaAndroid.AsesorEnLineaAndroidRepositoryFolders.CerrarSesionFolder.CerrarSesionBtnInfo">
+            <summary>
+            The CerrarSesionBtn item info.
+            </summary>
+        </member>
+        <member name="T:AsesorEnLineaAndroid.AsesorEnLineaAndroidRepositoryFolders.AsignarCitaFolder">
+            <summary>
+            The AsignarCitaFolder folder.
+            </summary>
+        </member>
+        <member name="M:AsesorEnLineaAndroid.AsesorEnLineaAndroidRepositoryFolders.AsignarCitaFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new AsignarCita  folder.
+            </summary>
+        </member>
+        <member name="P:AsesorEnLineaAndroid.AsesorEnLineaAndroidRepositoryFolders.AsignarCitaFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:AsesorEnLineaAndroid.AsesorEnLineaAndroidRepositoryFolders.AsignarCitaFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:AsesorEnLineaAndroid.AsesorEnLineaAndroidRepositoryFolders.AsignarCitaFolder.ConsultarCitaBtn">
+            <summary>
+            The ConsultarCitaBtn item.
+            </summary>
+        </member>
+        <member name="P:AsesorEnLineaAndroid.AsesorEnLineaAndroidRepositoryFolders.AsignarCitaFolder.ConsultarCitaBtnInfo">
+            <summary>
+            The ConsultarCitaBtn item info.
+            </summary>
+        </member>
+        <member name="P:AsesorEnLineaAndroid.AsesorEnLineaAndroidRepositoryFolders.AsignarCitaFolder.AreaAgenda">
+            <summary>
+            The AreaAgenda item.
+            </summary>
+        </member>
+        <member name="P:AsesorEnLineaAndroid.AsesorEnLineaAndroidRepositoryFolders.AsignarCitaFolder.AreaAgendaInfo">
+            <summary>
+            The AreaAgenda item info.
+            </summary>
+        </member>
+        <member name="P:AsesorEnLineaAndroid.AsesorEnLineaAndroidRepositoryFolders.AsignarCitaFolder.AceptarCitaBtn">
+            <summary>
+            The AceptarCitaBtn item.
+            </summary>
+        </member>
+        <member name="P:AsesorEnLineaAndroid.AsesorEnLineaAndroidRepositoryFolders.AsignarCitaFolder.AceptarCitaBtnInfo">
+            <summary>
+            The AceptarCitaBtn item info.
+            </summary>
+        </member>
+        <member name="P:AsesorEnLineaAndroid.AsesorEnLineaAndroidRepositoryFolders.AsignarCitaFolder.AsignarCitaBtn">
+            <summary>
+            The AsignarCitaBtn item.
+            </summary>
+        </member>
+        <member name="P:AsesorEnLineaAndroid.AsesorEnLineaAndroidRepositoryFolders.AsignarCitaFolder.AsignarCitaBtnInfo">
+            <summary>
+            The AsignarCitaBtn item info.
+            </summary>
+        </member>
+        <member name="T:AsesorEnLineaAndroid.AsesorEnLineaAndroidRepositoryFolders.ReasignarCitaFolder">
+            <summary>
+            The ReasignarCitaFolder folder.
+            </summary>
+        </member>
+        <member name="M:AsesorEnLineaAndroid.AsesorEnLineaAndroidRepositoryFolders.ReasignarCitaFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ReasignarCita  folder.
+            </summary>
+        </member>
+        <member name="P:AsesorEnLineaAndroid.AsesorEnLineaAndroidRepositoryFolders.ReasignarCitaFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:AsesorEnLineaAndroid.AsesorEnLineaAndroidRepositoryFolders.ReasignarCitaFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:AsesorEnLineaAndroid.AsesorEnLineaAndroidRepositoryFolders.ReasignarCitaFolder.Cita">
+            <summary>
+            The Cita item.
+            </summary>
+        </member>
+        <member name="P:AsesorEnLineaAndroid.AsesorEnLineaAndroidRepositoryFolders.ReasignarCitaFolder.CitaInfo">
+            <summary>
+            The Cita item info.
+            </summary>
+        </member>
+        <member name="P:AsesorEnLineaAndroid.AsesorEnLineaAndroidRepositoryFolders.ReasignarCitaFolder.ReasignarCitaBtn">
+            <summary>
+            The ReasignarCitaBtn item.
+            </summary>
+        </member>
+        <member name="P:AsesorEnLineaAndroid.AsesorEnLineaAndroidRepositoryFolders.ReasignarCitaFolder.ReasignarCitaBtnInfo">
+            <summary>
+            The ReasignarCitaBtn item info.
+            </summary>
+        </member>
+        <member name="P:AsesorEnLineaAndroid.AsesorEnLineaAndroidRepositoryFolders.ReasignarCitaFolder.CitaHorario2">
+            <summary>
+            The CitaHorario2 item.
+            </summary>
+        </member>
+        <member name="P:AsesorEnLineaAndroid.AsesorEnLineaAndroidRepositoryFolders.ReasignarCitaFolder.CitaHorario2Info">
+            <summary>
+            The CitaHorario2 item info.
+            </summary>
+        </member>
+        <member name="P:AsesorEnLineaAndroid.AsesorEnLineaAndroidRepositoryFolders.ReasignarCitaFolder.AceptarReasignarCita">
+            <summary>
+            The AceptarReasignarCita item.
+            </summary>
+        </member>
+        <member name="P:AsesorEnLineaAndroid.AsesorEnLineaAndroidRepositoryFolders.ReasignarCitaFolder.AceptarReasignarCitaInfo">
+            <summary>
+            The AceptarReasignarCita item info.
+            </summary>
+        </member>
+        <member name="T:AsesorEnLineaAndroid.AsesorEnLineaAndroidRepositoryFolders.EliminarCitaFolder">
+            <summary>
+            The EliminarCitaFolder folder.
+            </summary>
+        </member>
+        <member name="M:AsesorEnLineaAndroid.AsesorEnLineaAndroidRepositoryFolders.EliminarCitaFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new EliminarCita  folder.
+            </summary>
+        </member>
+        <member name="P:AsesorEnLineaAndroid.AsesorEnLineaAndroidRepositoryFolders.EliminarCitaFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:AsesorEnLineaAndroid.AsesorEnLineaAndroidRepositoryFolders.EliminarCitaFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:AsesorEnLineaAndroid.AsesorEnLineaAndroidRepositoryFolders.EliminarCitaFolder.AreaCita">
+            <summary>
+            The AreaCita item.
+            </summary>
+        </member>
+        <member name="P:AsesorEnLineaAndroid.AsesorEnLineaAndroidRepositoryFolders.EliminarCitaFolder.AreaCitaInfo">
+            <summary>
+            The AreaCita item info.
+            </summary>
+        </member>
+        <member name="P:AsesorEnLineaAndroid.AsesorEnLineaAndroidRepositoryFolders.EliminarCitaFolder.EliminarCitaMEnu">
+            <summary>
+            The EliminarCitaMEnu item.
+            </summary>
+        </member>
+        <member name="P:AsesorEnLineaAndroid.AsesorEnLineaAndroidRepositoryFolders.EliminarCitaFolder.EliminarCitaMEnuInfo">
+            <summary>
+            The EliminarCitaMEnu item info.
+            </summary>
+        </member>
+        <member name="P:AsesorEnLineaAndroid.AsesorEnLineaAndroidRepositoryFolders.EliminarCitaFolder.AceptarEliminar">
+            <summary>
+            The AceptarEliminar item.
+            </summary>
+        </member>
+        <member name="P:AsesorEnLineaAndroid.AsesorEnLineaAndroidRepositoryFolders.EliminarCitaFolder.AceptarEliminarInfo">
+            <summary>
+            The AceptarEliminar item info.
+            </summary>
+        </member>
+        <member name="P:AsesorEnLineaAndroid.AsesorEnLineaAndroidRepositoryFolders.EliminarCitaFolder.EliminarCita">
+            <summary>
+            The EliminarCita item.
+            </summary>
+        </member>
+        <member name="P:AsesorEnLineaAndroid.AsesorEnLineaAndroidRepositoryFolders.EliminarCitaFolder.EliminarCitaInfo">
+            <summary>
+            The EliminarCita item info.
+            </summary>
+        </member>
+        <member name="T:AsesorEnLineaAndroid.AsignarCita">
+             <summary>
+            The AsignarCita recording.
+             </summary>
+        </member>
+        <member name="F:AsesorEnLineaAndroid.AsignarCita.repo">
+            <summary>
+            Holds an instance of the AsesorEnLineaAndroidRepository repository.
+            </summary>
+        </member>
+        <member name="M:AsesorEnLineaAndroid.AsignarCita.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:AsesorEnLineaAndroid.AsignarCita.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:AsesorEnLineaAndroid.AsignarCita.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:AsesorEnLineaAndroid.AsignarCita.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:AsesorEnLineaAndroid.AsignarCita.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:AsesorEnLineaAndroid.AsignarCita.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:AsesorEnLineaAndroid.CerrarSesion">
+             <summary>
+            The CerrarSesion recording.
+             </summary>
+        </member>
+        <member name="F:AsesorEnLineaAndroid.CerrarSesion.repo">
+            <summary>
+            Holds an instance of the AsesorEnLineaAndroidRepository repository.
+            </summary>
+        </member>
+        <member name="M:AsesorEnLineaAndroid.CerrarSesion.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:AsesorEnLineaAndroid.CerrarSesion.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:AsesorEnLineaAndroid.CerrarSesion.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:AsesorEnLineaAndroid.CerrarSesion.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:AsesorEnLineaAndroid.CerrarSesion.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:AsesorEnLineaAndroid.CerrarSesion.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:AsesorEnLineaAndroid.EliminarCita">
+             <summary>
+            The EliminarCita recording.
+             </summary>
+        </member>
+        <member name="F:AsesorEnLineaAndroid.EliminarCita.repo">
+            <summary>
+            Holds an instance of the AsesorEnLineaAndroidRepository repository.
+            </summary>
+        </member>
+        <member name="M:AsesorEnLineaAndroid.EliminarCita.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:AsesorEnLineaAndroid.EliminarCita.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:AsesorEnLineaAndroid.EliminarCita.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:AsesorEnLineaAndroid.EliminarCita.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:AsesorEnLineaAndroid.EliminarCita.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:AsesorEnLineaAndroid.EliminarCita.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:AsesorEnLineaAndroid.Eliminarcita2">
+             <summary>
+            The Eliminarcita2 recording.
+             </summary>
+        </member>
+        <member name="F:AsesorEnLineaAndroid.Eliminarcita2.repo">
+            <summary>
+            Holds an instance of the AsesorEnLineaAndroidRepository repository.
+            </summary>
+        </member>
+        <member name="M:AsesorEnLineaAndroid.Eliminarcita2.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:AsesorEnLineaAndroid.Eliminarcita2.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:AsesorEnLineaAndroid.Eliminarcita2.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:AsesorEnLineaAndroid.Eliminarcita2.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:AsesorEnLineaAndroid.Eliminarcita2.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:AsesorEnLineaAndroid.Eliminarcita2.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:AsesorEnLineaAndroid.IniciarSesion">
+             <summary>
+            The IniciarSesion recording.
+             </summary>
+        </member>
+        <member name="F:AsesorEnLineaAndroid.IniciarSesion.repo">
+            <summary>
+            Holds an instance of the AsesorEnLineaAndroidRepository repository.
+            </summary>
+        </member>
+        <member name="M:AsesorEnLineaAndroid.IniciarSesion.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:AsesorEnLineaAndroid.IniciarSesion.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:AsesorEnLineaAndroid.IniciarSesion.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:AsesorEnLineaAndroid.IniciarSesion.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:AsesorEnLineaAndroid.IniciarSesion.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:AsesorEnLineaAndroid.IniciarSesion.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:AsesorEnLineaAndroid.Reasignar2">
+             <summary>
+            The Reasignar2 recording.
+             </summary>
+        </member>
+        <member name="F:AsesorEnLineaAndroid.Reasignar2.repo">
+            <summary>
+            Holds an instance of the AsesorEnLineaAndroidRepository repository.
+            </summary>
+        </member>
+        <member name="M:AsesorEnLineaAndroid.Reasignar2.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:AsesorEnLineaAndroid.Reasignar2.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:AsesorEnLineaAndroid.Reasignar2.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:AsesorEnLineaAndroid.Reasignar2.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:AsesorEnLineaAndroid.Reasignar2.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:AsesorEnLineaAndroid.Reasignar2.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:AsesorEnLineaAndroid.ReasignarCita">
+             <summary>
+            The ReasignarCita recording.
+             </summary>
+        </member>
+        <member name="F:AsesorEnLineaAndroid.ReasignarCita.repo">
+            <summary>
+            Holds an instance of the AsesorEnLineaAndroidRepository repository.
+            </summary>
+        </member>
+        <member name="M:AsesorEnLineaAndroid.ReasignarCita.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:AsesorEnLineaAndroid.ReasignarCita.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:AsesorEnLineaAndroid.ReasignarCita.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:AsesorEnLineaAndroid.ReasignarCita.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:AsesorEnLineaAndroid.ReasignarCita.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:AsesorEnLineaAndroid.ReasignarCita.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:AsesorEnLineaAndroid.Recording1">
+             <summary>
+            The Recording1 recording.
+             </summary>
+        </member>
+        <member name="F:AsesorEnLineaAndroid.Recording1.repo">
+            <summary>
+            Holds an instance of the AsesorEnLineaAndroidRepository repository.
+            </summary>
+        </member>
+        <member name="M:AsesorEnLineaAndroid.Recording1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:AsesorEnLineaAndroid.Recording1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:AsesorEnLineaAndroid.Recording1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:AsesorEnLineaAndroid.Recording1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:AsesorEnLineaAndroid.Recording1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:AsesorEnLineaAndroid.Recording1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

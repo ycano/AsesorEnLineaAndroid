@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="b8b17302-cdcb-4bcc-9413-cd3f9ba60381"
+mode="Mobile">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Recording1"
+	namespace="AsesorEnLineaAndroid">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="6ebcbdda-7f62-4c39-addc-04cbcf76a8ed"
+	name="AsesorEnLineaAndroidRepository"
+	relativepath="AsesorEnLineaAndroidRepository.rxrep">
+		<codegen
+		classname="AsesorEnLineaAndroidRepository"
+		namespace="AsesorEnLineaAndroid">
+		</codegen>
+		<rootfolder
+		id="6dce7644-ba05-4926-bd0f-a29c8d1e9ecd"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Recording1.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

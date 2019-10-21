@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="a2536fe54136371"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Ycano"
+		rxversion="9.1.2.0"
+		host="P-YCANO"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="es-CO"
+		screenresolution="2390x768"
+		timestamp="11/10/2019 8:35:11 a. m."
+		timestampiso="2019-10-11T13:35:11"
+		endtime="11/10/2019 8:35:58 a. m."
+		timeoutfactor="1"
+		module="IniciarSesion">
+		<detail>
+			IniciarSesion
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.956"
+			timeRelativeToTestModuleStartTime="00:02.956"
+			timeWallClock="08:35:14"
+			time="00:02.956"
+			level="Info"
+			category="Application">
+			<message>
+				Run mobile app 'com.proteccion.videoasesoria' on device 'ASUS_Z01BDC'.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="C:\Users\ycano\Documents\Ranorex\RanorexStudio Projects\AsesorEnLineaAndroid\AsesorEnLineaAndroid\IniciarSesion.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.741"
+			timeRelativeToTestModuleStartTime="00:08.741"
+			timeWallClock="08:35:20"
+			time="00:08.741"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Text to 'Yeraldin Cano' on item 'ComProteccionVideoasesoria.Login.Content.NombreTxt'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.proteccion.videoasesoria']/form[@title='ActivityLogin']/androidelement[@rid='content']//androidelement[@rid='textInputLayout2']/?/?/text[@rid='editName']"
+				itempath=".//androidelement[@rid='textInputLayout2']/?/?/text[@rid='editName']"
+				fullname="AsesorEnLineaAndroidRepository.ComProteccionVideoasesoria.Login.Content.NombreTxt"
+				id="6d1a97441aa44c3eb75e9b1c6329a8fa"
+				timeout="120000"
+				codefile="C:\Users\ycano\Documents\Ranorex\RanorexStudio Projects\AsesorEnLineaAndroid\AsesorEnLineaAndroid\IniciarSesion.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.734"
+			timeRelativeToTestModuleStartTime="00:23.734"
+			timeWallClock="08:35:35"
+			time="00:23.734"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComProteccionVideoasesoria.Login.Content.TipoDocumentoList' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.proteccion.videoasesoria']/form[@title='ActivityLogin']/androidelement[@rid='content']//container[@rid='linearLayout4']/combobox[@rid='spTipoDocumento']"
+				itempath=".//container[@rid='linearLayout4']/combobox[@rid='spTipoDocumento']"
+				fullname="AsesorEnLineaAndroidRepository.ComProteccionVideoasesoria.Login.Content.TipoDocumentoList"
+				id="11d754a9d9ee4fadaab65fa8aa0050f4"
+				timeout="120000"
+				codefile="C:\Users\ycano\Documents\Ranorex\RanorexStudio Projects\AsesorEnLineaAndroid\AsesorEnLineaAndroid\IniciarSesion.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:26.660"
+			timeRelativeToTestModuleStartTime="00:26.660"
+			timeWallClock="08:35:38"
+			time="00:26.660"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComProteccionVideoasesoria.Login.CedulaDeCiudadania' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.proteccion.videoasesoria']/form[@title='(none)']/androidelement/androidelement/text[2]"
+				itempath="form[@title='(none)']/androidelement/androidelement/text[2]"
+				fullname="AsesorEnLineaAndroidRepository.ComProteccionVideoasesoria.Login.CedulaDeCiudadania"
+				id="2a0146fb92004ef3a46c4e814ad0025c"
+				timeout="90000"
+				codefile="C:\Users\ycano\Documents\Ranorex\RanorexStudio Projects\AsesorEnLineaAndroid\AsesorEnLineaAndroid\IniciarSesion.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:29.177"
+			timeRelativeToTestModuleStartTime="00:29.177"
+			timeWallClock="08:35:41"
+			time="00:29.177"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Text to '1020483046' on item 'ComProteccionVideoasesoria.Login.Content.NumeroDocumentoTxt'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.proteccion.videoasesoria']/form[@title='ActivityLogin']/androidelement[@rid='content']//androidelement[@rid='textInputLayout']/?/?/text[@rid='editDocumento']"
+				itempath=".//androidelement[@rid='textInputLayout']/?/?/text[@rid='editDocumento']"
+				fullname="AsesorEnLineaAndroidRepository.ComProteccionVideoasesoria.Login.Content.NumeroDocumentoTxt"
+				id="1e39c1887a4a4b6b970bf93be16e7e37"
+				timeout="120000"
+				codefile="C:\Users\ycano\Documents\Ranorex\RanorexStudio Projects\AsesorEnLineaAndroid\AsesorEnLineaAndroid\IniciarSesion.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:30.639"
+			timeRelativeToTestModuleStartTime="00:30.639"
+			timeWallClock="08:35:42"
+			time="00:30.639"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute Text to 'yeraldin.ig2019@gmail.com' on item 'ComProteccionVideoasesoria.Login.Content.EmailTxt'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.proteccion.videoasesoria']/form[@title='ActivityLogin']/androidelement[@rid='content']/?/?/container[@containertype='Relative']//text[@rid='edit_email']"
+				itempath="?/?/container[@containertype='Relative']//text[@rid='edit_email']"
+				fullname="AsesorEnLineaAndroidRepository.ComProteccionVideoasesoria.Login.Content.EmailTxt"
+				id="b419efefb10b4b048f7b318da66787f2"
+				timeout="120000"
+				codefile="C:\Users\ycano\Documents\Ranorex\RanorexStudio Projects\AsesorEnLineaAndroid\AsesorEnLineaAndroid\IniciarSesion.cs"
+				codeline="102"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:32.256"
+			timeRelativeToTestModuleStartTime="00:32.256"
+			timeWallClock="08:35:44"
+			time="00:32.256"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComProteccionVideoasesoria.Login.Content.TipoAsesoriaList' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.proteccion.videoasesoria']/form[@title='ActivityLogin']/androidelement[@rid='content']//container[@rid='linearLayout5']/combobox[@rid='spTipoAsesor']"
+				itempath=".//container[@rid='linearLayout5']/combobox[@rid='spTipoAsesor']"
+				fullname="AsesorEnLineaAndroidRepository.ComProteccionVideoasesoria.Login.Content.TipoAsesoriaList"
+				id="005b41d7bde74cfb9cfa09371b32c431"
+				timeout="120000"
+				codefile="C:\Users\ycano\Documents\Ranorex\RanorexStudio Projects\AsesorEnLineaAndroid\AsesorEnLineaAndroid\IniciarSesion.cs"
+				codeline="106"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:36.099"
+			timeRelativeToTestModuleStartTime="00:36.099"
+			timeWallClock="08:35:47"
+			time="00:36.099"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComProteccionVideoasesoria.Login.PruebasYeraldin' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.proteccion.videoasesoria']/form[@title='(none)']/androidelement/androidelement/text[5]"
+				itempath="form[@title='(none)']/androidelement/androidelement/text[5]"
+				fullname="AsesorEnLineaAndroidRepository.ComProteccionVideoasesoria.Login.PruebasYeraldin"
+				id="43c405d25f594145a96e16f8b2058a1e"
+				timeout="90000"
+				codefile="C:\Users\ycano\Documents\Ranorex\RanorexStudio Projects\AsesorEnLineaAndroid\AsesorEnLineaAndroid\IniciarSesion.cs"
+				codeline="110"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:40.751"
+			timeRelativeToTestModuleStartTime="00:40.751"
+			timeWallClock="08:35:52"
+			time="00:40.751"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComProteccionVideoasesoria.Login.Content.IngresarBtn' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.proteccion.videoasesoria']/form[@title='ActivityLogin']/androidelement[@rid='content']//button[@resourceid='R.string.ingresar']"
+				itempath=".//button[@resourceid='R.string.ingresar']"
+				fullname="AsesorEnLineaAndroidRepository.ComProteccionVideoasesoria.Login.Content.IngresarBtn"
+				id="8cf3c78013bc45a6a78fc523f183c929"
+				timeout="120000"
+				codefile="C:\Users\ycano\Documents\Ranorex\RanorexStudio Projects\AsesorEnLineaAndroid\AsesorEnLineaAndroid\IniciarSesion.cs"
+				codeline="114"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

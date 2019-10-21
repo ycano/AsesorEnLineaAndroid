@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="4e031015c53ad80"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Ycano"
+		rxversion="9.1.2.0"
+		host="P-YCANO"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="es-CO"
+		screenresolution="2390x768"
+		timestamp="11/10/2019 2:54:36 p. m."
+		timestampiso="2019-10-11T19:54:36"
+		endtime="11/10/2019 2:55:08 p. m."
+		timeoutfactor="1"
+		module="Eliminarcita2">
+		<detail>
+			Eliminarcita2
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.142"
+			timeRelativeToTestModuleStartTime="00:03.142"
+			timeWallClock="14:54:39"
+			time="00:03.142"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComProteccionVideoasesoria.ReasignarCita.Cita' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.proteccion.videoasesoria']/form[@title='HomeActivity']//container[@rid='content_home']/container/container[@containertype='Linear']/container[4]/container[@rid='layout_appointments']/androidelement[@rid='rv_appointment_assigned']//container[@rid='rowFG']/container[@rid='appointment_delete']/container[1]"
+				itempath="form[@title='HomeActivity']//container[@rid='content_home']/container/container[@containertype='Linear']/container[4]/container[@rid='layout_appointments']/androidelement[@rid='rv_appointment_assigned']//container[@rid='rowFG']/container[@rid='appointment_delete']/container[1]"
+				fullname="AsesorEnLineaAndroidRepository.ComProteccionVideoasesoria.ReasignarCita.Cita"
+				id="9db9b3a089914b71ba9d912e0e9f58be"
+				timeout="90000"
+				codefile="C:\Users\ycano\Documents\Ranorex\RanorexStudio Projects\AsesorEnLineaAndroid\AsesorEnLineaAndroid\Eliminarcita2.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.145"
+			timeRelativeToTestModuleStartTime="00:17.145"
+			timeWallClock="14:54:53"
+			time="00:17.145"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComProteccionVideoasesoria.EliminarCita.EliminarCitaMEnu' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.proteccion.videoasesoria']/form[@title='(none)']/?/?/container[@rid='container']/?/?/container[@rid='design_bottom_sheet']/?/?/button[@resourceid='R.string.delete_appointment']"
+				itempath="form[@title='(none)']/?/?/container[@rid='container']/?/?/container[@rid='design_bottom_sheet']/?/?/button[@resourceid='R.string.delete_appointment']"
+				fullname="AsesorEnLineaAndroidRepository.ComProteccionVideoasesoria.EliminarCita.EliminarCitaMEnu"
+				id="f2c0d330be174abeba73bc85555edf82"
+				timeout="90000"
+				codefile="C:\Users\ycano\Documents\Ranorex\RanorexStudio Projects\AsesorEnLineaAndroid\AsesorEnLineaAndroid\Eliminarcita2.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:25.244"
+			timeRelativeToTestModuleStartTime="00:25.244"
+			timeWallClock="14:55:01"
+			time="00:25.244"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComProteccionVideoasesoria.EliminarCita.AceptarEliminar' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.proteccion.videoasesoria']/form[@title='Eliminar cita']/container[@rid='content']//button[@resourceid='R.string.done']"
+				itempath="form[@title='Eliminar cita']/container[@rid='content']//button[@resourceid='R.string.done']"
+				fullname="AsesorEnLineaAndroidRepository.ComProteccionVideoasesoria.EliminarCita.AceptarEliminar"
+				id="56ee8c11dae04e51ab8d9281a97b7719"
+				timeout="90000"
+				codefile="C:\Users\ycano\Documents\Ranorex\RanorexStudio Projects\AsesorEnLineaAndroid\AsesorEnLineaAndroid\Eliminarcita2.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

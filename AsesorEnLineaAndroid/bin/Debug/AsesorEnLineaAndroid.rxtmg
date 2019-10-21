@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="AsesorEnLineaAndroid"
+      id="d52ef927-cb16-415d-8882-e0a1a59c3095"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="AsesorEnLineaAndroid"
+      id="d52ef927-cb16-415d-8882-e0a1a59c3095"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

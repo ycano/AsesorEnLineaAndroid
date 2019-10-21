@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="8.88s"
+		durationms="8875"
+		type="root"
+		rid="4e44affa33d4e88"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Ycano"
+		rxversion="9.1.2.0"
+		host="ASUS_Z01BDC (Unknown)
+WLAN - 192.168.137.133"
+		osversion="-"
+		runtimeversion="-"
+		procarch="-"
+		oslanguage="-"
+		dtnlanguage="-"
+		screenresolution="-"
+		timestamp="9/10/2019 3:01:30 p. m."
+		timestampiso="2019-10-09T20:01:30"
+		endtime="9/10/2019 3:01:39 p. m."
+		timeoutfactor="1"
+		module="AsignarCita">
+		<detail>
+			AsignarCita
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:03.030"
+			timeRelativeToTestModuleStartTime="00:03.030"
+			timeWallClock="15:01:33"
+			time="00:03.030"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComProteccionVideoasesoria.AsignarCita.ConsultarCitaBtn' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.proteccion.videoasesoria']/form[@title='HomeActivity']/androidelement[@rid='content']//container[@rid='content_home']/container/container[@containertype='Linear']/container[3]/button[@resourceid='R.string.consult_appointment']"
+				itempath="form[@title='HomeActivity']/androidelement[@rid='content']//container[@rid='content_home']/container/container[@containertype='Linear']/container[3]/button[@resourceid='R.string.consult_appointment']"
+				fullname="AsesorEnLineaAndroidRepository.ComProteccionVideoasesoria.AsignarCita.ConsultarCitaBtn"
+				id="58c5d731875c490faa1bc02d482efaf4"
+				timeout="90000"
+				codefile="C:\Users\ycano\Documents\Ranorex\RanorexStudio Projects\AsesorEnLineaAndroid\AsesorEnLineaAndroid\AsignarCita.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.875"
+			timeRelativeToTestModuleStartTime="00:08.875"
+			timeWallClock="15:01:39"
+			time="00:08.875"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>
