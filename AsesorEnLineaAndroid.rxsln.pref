@@ -5,11 +5,7 @@
   <Array name="bookmarks" />
   <Array name="files" />
   <SerializedValue name="ModuleBrowserState">
-    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-      <string>{EAE59236-67ED-44B5-901E-023916FD7C70}</string>
-      <string>6e12a760-6636-488c-b3e9-7d256aa61ae5</string>
-      <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
-    </ArrayOfString>
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />
   </SerializedValue>
   <ProjectBrowserState value="[Solution AsesorEnLineaAndroid[AsesorEnLineaAndroid[]]]&#xD;&#xA;Solution AsesorEnLineaAndroid\AsesorEnLineaAndroid\AsesorEnLineaAndroid.rxtst&#xD;&#xA;Solution AsesorEnLineaAndroid" />
   <StartupProject value="{EAE59236-67ED-44B5-901E-023916FD7C70}" />
